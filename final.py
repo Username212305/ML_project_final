@@ -9,3 +9,6 @@ import math
 """Reading data"""
 
 training_data=pd.read_parquet("data_parquet_2026"/"train.parquet")
+
+
+training_data.head()
